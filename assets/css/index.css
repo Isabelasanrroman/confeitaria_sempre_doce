@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Fascinate", system-ui;
+    font-family: "IM Fell Great Primer", serif;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: rgb(77, 121, 161);
+    background-color: rgb(255, 210, 224);
 }
 
 header h1 {
@@ -37,13 +37,65 @@ nav ul li {
     font-weight: bold;
 }
 
-nav ul li {
+nav ul li a{
     color: white;
     text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav ul li a:hover {
     font-weight: bold;
     text-decoration: underline;
-    color: white;
+    color: rgb(184, 77, 121);
+}
+
+.img-carrossel {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+
+.container h2 {
+    text-align: center;
+    color: rgb(244, 166, 187);
+}
+
+.container h2 p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-cardapio-itens {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.menu-cardapio-item {
+    border: 1px solid rgb(184, 77, 121);
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(243, 64, 147, 0.5);
+    margin: 20px;
+}
+
+.menu-cardapio h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Volkhov", serif;
+    color: rgb(244, 166, 187);
+}
+
+footer {
+    background-color:rgb(244, 166, 187);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
 }
