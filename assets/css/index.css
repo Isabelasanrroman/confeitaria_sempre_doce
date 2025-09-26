@@ -16,7 +16,32 @@ body {
 }
 
 header {
+    display: flex;
     background-color: rgb(255, 210, 224);
+}
+
+.link-admin {
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    color: white;
+    padding-right: 20px;
+}
+
+.link-admin :hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(184, 77, 121);
+}
+
+.logo {
+    width: 0;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 30px;
+
 }
 
 header h1 {

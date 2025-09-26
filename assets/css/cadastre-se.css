@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(251, 211, 221);
+    background-image: url('../img/fundo.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 20px;
+    color: rgb(155, 49, 77);
+}
+
+div h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: rgb(255, 195, 210);
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: 2px solid rgb(155, 49, 77);
+    border-radius: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 5px rgb(251, 211, 221);
+    font-size: 25px;
+    background-color: rgb(251, 211, 221);
+}
+
+button :hover {
+    cursor: pointer;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(61, 66, 215);
+}
+
+a :hover {
+    text-decoration: underline;
+}
