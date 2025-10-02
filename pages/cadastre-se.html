@@ -10,23 +10,29 @@
     <div>
         <h1>Realize o Cadastro</h1>
             
-            <input type="text" id="name" placeholder="Nome Completo">
+            <input type="text" id="nome" placeholder="Nome Completo">
             <br><br>
 
             <input type="email" id="email" placeholder="Email">
             <br><br>
 
-            <input type="password" placeholder="Senha">
+            <input type="password" id="password" placeholder="Senha">
             <br><br>
 
-            <input type="password" placeholder="Confirme sua senha">
+            <input type="password" id="confirma-password" placeholder="Confirme sua senha">
             <br><br>
 
-            <button>Acessar</button>
+            <input type="checkbox" id="exibir-senha" onclick="toggleSenha()"> Exibir Senhas
+            <br><br>
+
+            <button onclick="cadastrarUsuario()">Cadastrar-se</button>
             <br><br>
 
             <a href="admin.html">Voltar para o Login</a>
     </div>
 
 </body>
+
+<script src="../assets/js/cadastro.js"></script>
+
 </html>

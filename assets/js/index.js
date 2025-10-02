@@ -1,7 +1,7 @@
 let imagens = [
-    'assets/img/bolo1.PNG',
-    'assets/img/bolo2.PNG',
-    'assets/img/bolo3.PNG'
+    'assets/img/banner1.PNG',
+    'assets/img/banner2.PNG',
+    'assets/img/banner3.PNG'
 ]
 
 let indiceAtualListaImagem = 0
