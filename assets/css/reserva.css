@@ -1,0 +1,68 @@
+body {
+    font-family: "Poiret One", sans-serif;
+    color: rgb(39, 2, 13);
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(220, 78, 123);
+    margin-top: 50px;
+}
+
+input {
+    height: 30px;
+    border: 1px solid rgb(27, 2, 12);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+input[type="text"] {
+    width: 610px;
+}
+
+input[type="number"] {
+    width: 610px;
+}
+
+input[type="date"] {
+    width: 610px;
+}
+
+button {
+    background-color: rgb(220, 78, 123);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Poiret One", sans-serif;
+}
+
+button:hover {
+    background-color: rgb(255, 125, 166);
+    transition: (1.5);
+}
+
+.voltar {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(12, 29, 113);
+    color: rgb(155, 19, 62);;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

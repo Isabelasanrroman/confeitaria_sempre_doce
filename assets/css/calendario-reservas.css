@@ -1,0 +1,31 @@
+body {
+    font-family: "Poiret One", sans-serif;
+    background-color: rgb(253, 230, 241);
+}
+
+.container {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+}
+
+.div-voltar {
+    text-align: center;
+}
+
+.link-voltar {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(164, 46, 84);;
+}
+
+.link-voltar:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
