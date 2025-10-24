@@ -1,13 +1,25 @@
 body {
     font-family: "Poiret One", sans-serif;
     color: rgb(39, 2, 13);
+    background-image: url('../img/fundo.PNG');
+    background-size: cover;
     width: 100%;
     text-align: center;
 }
 
 h1 {
     color: rgb(220, 78, 123);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 50px;
+}
+
+section {
+    width: 52%;
+    margin-left: 240px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
 }
 
 input {
@@ -32,7 +44,6 @@ input[type="date"] {
 button {
     background-color: rgb(220, 78, 123);
     color: rgb(255, 255, 255);
-    font-size: 25px;
     padding: 15px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
@@ -41,15 +52,20 @@ button {
 }
 
 button:hover {
-    background-color: rgb(255, 125, 166);
+    background-color: rgb(240, 37, 101);
     transition: (1.5);
+}
+
+.texto-button {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .voltar {
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(12, 29, 113);
-    color: rgb(155, 19, 62);;
 }
 
 .voltar:hover {
